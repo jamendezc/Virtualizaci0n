@@ -9,7 +9,7 @@ define( 'DB_USER', 'admin' );
 define( 'DB_PASSWORD', 'Duoc.2023' );
 
 #Define el host de la base de datos. 
-#En este caso, se utiliza 'punto de conección de la instancia de la base de datos en AWS' 
+#En este caso, se utiliza 'punto de conexion instancia RDS' 
 #Para indicar que la base de datos se encuentra en el mismo servidor que WordPress.
 define( 'DB_HOST', 'prueba2-instance-1.c0p67o0eorpd.us-east-1.rds.amazonaws.com' );
 
