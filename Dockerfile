@@ -20,8 +20,8 @@ RUN curl -o /tmp/latest.tar.gz -SL https://wordpress.org/latest.tar.gz && \
 # Copiar archivo de configuración de Apache
 COPY apache-config.conf /etc/apache2/sites-available/000-default.conf
 
-# Copia el archivo wp-config.php al contenedor
-COPY wp-config.php /var/www/html/
+# Copiar el archivo wp-config.php personalizado al contenedor
+COPY wp-config.php /var/www/html/wp-config.php
 
 # Habilitar el módulo de reescritura de Apache
 RUN a2enmod rewrite
