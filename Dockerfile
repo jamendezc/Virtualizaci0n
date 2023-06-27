@@ -23,7 +23,7 @@ COPY apache-config.conf /etc/apache2/sites-available/000-default.conf
 # Copiamos el archivo wp-config.php personalizado anteriormente
 COPY wp-config.php /var/www/html/wp-config.php
 
-# Habilitamos el módulo de reescritura de Apache
+# Habilitamos el módulo de reescritura para Apache
 RUN a2enmod rewrite
 
 # Exponemos el puerto 80 para acceder a la aplicación web
