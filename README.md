@@ -1,2 +1,2 @@
 # Virtualizaci0n
-Implementación de una aplicación web utilizando contenedores y GitHub
+Implementación de un Wordpress utilizando contenedores y GitHub
