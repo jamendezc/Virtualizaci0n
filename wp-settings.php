@@ -1,5 +1,4 @@
-#todo lo que este con * se debe cambiar
-
+#Todo lo que este con * se debe cambiar.
 <?php
 #Define el nombre de la base de datos que se creaste por linea de comando.*
 define( 'DB_NAME', 'mybasededatos' );
