@@ -1,11 +1,12 @@
 # Utilizamos una imagen base de PHP con Apache
+# Todo lo que esta con * se debe cambiar
 FROM php:7.4-apache
 
 # Variables de entorno para configurar la base de datos de WordPress
-ENV WORDPRESS_DB_HOST=prueba2-instance-1.c0p67o0eorpd.us-east-1.rds.amazonaws.com
-ENV WORDPRESS_DB_NAME=mybasededatos
-ENV WORDPRESS_DB_USER=admin
-ENV WORDPRESS_DB_PASSWORD=Duoc.2023
+ENV WORDPRESS_DB_HOST=prueba2-instance-1.c0p67o0eorpd.us-east-1.rds.amazonaws.com*
+ENV WORDPRESS_DB_NAME=mybasededatos*
+ENV WORDPRESS_DB_USER=admin*
+ENV WORDPRESS_DB_PASSWORD=Duoc.2023*
 
 # Instalamos las extensiones de PHP requeridas para WordPress
 RUN docker-php-ext-install mysqli && \
