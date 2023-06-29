@@ -10,10 +10,18 @@ Esto permitirá familiarizarnos con la implementación de WordPress en contenedo
 ##### Creación de instancia EC2 en AWS.
 En esta parte se debe crear la instacia con AMI tipo Linux para poder conectarnos a la lína de comando mediante SSH en putty.
 
-Una vez conectados en putty configurar los siguientes comandos:
+Una vez conectados en putty configurar los siguientes comandos en usuario root: 
 
-`sudo yum update`
+` yum update` #Actualizar paquetes.
 
-`sudo yum -y install docker`
+`yum -y install docker`  #Instalar Docker.
 
-`sudo systemctl start docker`
+` systemctl start docker`  #Iniciar Docker.
+
+`systemctl status docker`   #Estado de Docker.
+
+` mkdir _____ `    #Crear directorio.
+
+` cd ______ `      #Cambiar al directorio creado.
+
+` vim Dockerfile `    #Entrar al archivo Dockefile.
