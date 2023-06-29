@@ -16,4 +16,4 @@ Una vez conectados en putty configurar los siguientes comandos:
 
 `sudo yum -y install docker`
 
-`sudo systemctl start docker'
+`sudo systemctl start docker`
