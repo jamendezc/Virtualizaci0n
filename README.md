@@ -24,8 +24,7 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 
 ` cd ______ `      #Cambiar al directorio creado.
 
-` vim Dockerfile `    #Entrar al archivo Dockefile.
-  Adentro pegar el código que ocupaste
+` vim Dockerfile `    #Entrar al archivo Dockefile y pegar el código que ocuparás.
 
 
 
