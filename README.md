@@ -137,8 +137,11 @@ Seguimos los pasos:
 
 Cierras la ventana, recargas y ya debería aparecer tú imágen :sunglasses:. 
 
+------------
 
+*  :pushpin: Creación de Amazon Elastic Container Registry (ECS)*
 
+Con este servicio proporcionaremos un lugar centralizado y seguro para almacenar nuestras imágenes de contenedor Docker, lo que permiirá compartir y distribuir fácilmente nuestras aplicaciones basadas en contenedores.
 
 
 
