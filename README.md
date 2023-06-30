@@ -99,9 +99,10 @@ Apretamos en crear y configurar lo siguiente:
 
 1. Configuración de visibilidad privado.
 2. Asignar un nombre del repositorio .
-3.Crear.
+3. Crear.
+:warning: Lo que no salga aquí queda por defecto. :warning:
 
-Después de crear el repositorio en  ECR, debemos subir la imágen de contenedor al repositorio para que estén disponibles para su uso.
+Después de crear el repositorio ECR, debemos subir la imágen de contenedor al repositorio para que estén disponibles para su uso.
 
 Apretar sobre el nombre del repositorio ya creado y buscar Ver comandos de envío.
 
