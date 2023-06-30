@@ -93,7 +93,7 @@ configurar los siguientes comandos en **usuario ec2-user en el directorio home.*
 
 ### :pushpin: *Creación de Amazon Elastic Container Registry (ECR)*
 
-Aquí nos devolvemos a AWS y en el buscador ingresamos ECR lo que permitirá tener un repositorio privado para almacenar y administrar nuestra imágen de contenedor Docker brindándote mayor control y seguridad.
+Aquí nos devolvemos a AWS y en el buscador ingresamos ECR, esto nos permitirá tener un repositorio privado para almacenar y administrar nuestra imágen de contenedor Docker brindándote mayor control y seguridad.
 
 Apretamos en crear y configurar lo siguiente:
 
