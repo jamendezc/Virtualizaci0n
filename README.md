@@ -76,8 +76,9 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 
 `flush privileges;` #Confirmar cambios.
 
-### *Instalación aws CLI*
+### :pushpin: *Instalación aws CLI*
 configurar los siguientes comandos en **usuario ec2-user en el directorio home.**
+
 ------------
 
 
