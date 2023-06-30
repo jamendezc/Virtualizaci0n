@@ -157,10 +157,11 @@ Primero crearemos una definición de tarea.
 
 Luego, nos vamos a crear un cluster.
 
-1.Crear cluster.
+1. Crear cluster.
 2. Asignar un nombre para el cluster.
 3. presionar "crear".
 
 :warning: Lo que no salga aquí queda por defecto. :warning:
 
+Por último, crearemos el servicio.
 
