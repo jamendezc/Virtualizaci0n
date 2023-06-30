@@ -78,6 +78,15 @@ Una vez conectados en putty configurar los siguientes comandos en **usuario root
 ### :pushpin: *Instalación aws CLI*
 configurar los siguientes comandos en **usuario ec2-user en el directorio home.**
 
+
+`curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"` #Descargar el archivo "awscliv2.zip" que contiene la herramienta AWS CLI.
+
+`unzip awscliv2.zip`  #Descomprimir el archivo y extraerá su contenido en el directorio actual.
+
+`sudo ./aws/install`   #Ejecutar el script de instalación de AWS CLI.
+
+`vim ~/.aws/credentials` #Configurar accesos.
+
 ------------
 
 
