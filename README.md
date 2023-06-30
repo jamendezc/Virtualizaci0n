@@ -13,7 +13,7 @@ Servicios a utilizar:
 - Application Load Balancer
 ------------
 
-### *Base de datos RDS.*
+### :pushpin: *Base de datos RDS.*
 En esta parte se debe crear la base de datos que se utilizará para almacenar toda la información relacionada con el sitio web.
 
 Ir a RDS y configurar lo siguiente: 
@@ -31,12 +31,12 @@ Ir a RDS y configurar lo siguiente:
 :warning: Lo que no salga aquí queda por defecto. :warning:
 ------------
 
-###  *Instancia EC2 en AWS.*
+### :pushpin: *Instancia EC2 en AWS.*
 
 Se creará una instacia con AMI tipo Linux para poder conectarnos a la lína de comando mediante SSH en putty.
 ------------
 
-### *Instalación de Docker y creación Dockerfile.*
+### :pushpin: *Instalación de Docker y creación Dockerfile.*
 Una vez conectados en putty configurar los siguientes comandos en usuario root: 
 
 ` yum update` #Actualizar paquetes.
