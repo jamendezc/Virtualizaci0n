@@ -75,7 +75,7 @@ Una vez conectados en putty configurar los siguientes comandos en **usuario root
 
 `flush privileges;` #Confirmar cambios.
 
-### :pushpin: *Instalación aws CLI*
+### :pushpin: *Instalación AWS CLI*
 configurar los siguientes comandos en **usuario ec2-user en el directorio home.**
 
 
@@ -91,6 +91,9 @@ configurar los siguientes comandos en **usuario ec2-user en el directorio home.*
 
 ------------
 
+### *Creación de Amazon Elastic Container Registry (ECR)*
+
+Aquí nos devolvemos a AWS y en el buscador ingresamos ECR lo que permitirá tener un repositorio privado para almacenar y administrar nuestra imágen de contenedor Docker brindándote mayor control y seguridad.
 
 
 
