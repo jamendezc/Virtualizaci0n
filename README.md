@@ -28,7 +28,7 @@ Ir a RDS y configurar lo siguiente:
 8. Configuración de la instancia Clases con ráfagas (incluye clases t) y elegir tamaño small.
 7. Autenticación de bases de datos con contraseña.
 8. Crear base de datos.  
-:warning: Lo que no salga aquí queda por defecto.
+:warning: Lo que no salga aquí queda por defecto. :warning:
 ------------
 
 ###  *Instancia EC2 en AWS.*
