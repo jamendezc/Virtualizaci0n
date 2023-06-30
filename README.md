@@ -24,13 +24,11 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 
 ` cd ______ `      #Cambiar al directorio creado.
 
-` vim Dockerfile `    #Entrar al archivo Dockefile y pegar el código que ocuparás.
- 
+` vim Dockerfile `    #Entrar al archivo Dockefile y pegar el codigo q ocuparás.
 
+` vim apache-config.conf `    #Entrar al archivo y pegar el codigo q ocuparás.
 
-
-
-
+` vim wp-settings.php `    #Entrar al archivo y pegar el codigo q ocuparás.
 
 
 
