@@ -61,6 +61,7 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 ` docker build -t _________ . `  #Creación de la imagen .
 
 ` docker run -d -p 8080:80 ________ . `  #Lanzar la imagen .
+
 ------------
 
 
