@@ -21,12 +21,12 @@ Ir a RDS y configurar lo siguiente:
 1. Método de creación estándar.
 2. Opciones de motor Aurora (MySQL Compatible)
 3. Plantillas de desarrollo y pruebas.
-4. Elegir un nomnbre para identificador del clúster de base de datos.
+4. Elegir un nombre de identificador del clúster de base de datos.
 5. Dejar por defecto el nombre de usuario maestro (admin).
 6. Elegir una contraseña para administrar credenciales maestras.
-7. Cluster storage configuration Aurora-Standard.
-8. Configuración de la instancia Clases con ráfagas (incluye clases t) y elegir tamaño small.
-7. Autenticación de bases de datos con contraseña.
+7. Elegir en Cluster storage configuration Aurora-Standard.
+8. Configuración de la instancia clases con ráfagas (incluye clases t) y elegir tamaño small.
+7. Elegir Autenticación de bases de datos con contraseña.
 8. Crear base de datos.  
 :warning: Lo que no salga aquí queda por defecto. :warning:
 ------------
