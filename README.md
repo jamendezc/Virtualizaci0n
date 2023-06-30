@@ -90,6 +90,14 @@ configurar los siguientes comandos en **usuario ec2-user en el directorio home.*
 
 `vim ~/.aws/credentials` #Entrar al archivo y pegar el AWS CLI que aparece en Lerner lab.
 
+[default]
+
+aws_access_key_id=__________
+
+aws_secret_access_key=____________
+
+aws_session_token=_________________
+
 ------------
 
 ### :pushpin: *Creación de Amazon Elastic Container Registry (ECR)*
