@@ -62,9 +62,11 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 
 ` docker run -d -p 8080:80 ________ . `  #Lanzar la imagen .
 
-### :pushpin: *Instalación de base de datos *
+### :pushpin: *Instalación de base de datos.*
 
+` yum install mariadb105-server-utils.x86_64 ` #Instalar Mariadb .
 
+` mysql -h _________ -P 3306 -u admin -p`  #Conerctarse a la base de datos mediante punto de conexion instancia RDS.
 ------------
 
 
