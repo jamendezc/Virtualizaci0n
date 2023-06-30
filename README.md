@@ -30,7 +30,7 @@ Ir a RDS y configurar lo siguiente:
 7. Autenticación de bases de datos con contraseña.
 8. Crear base de datos.
 
-:warning: Lo que no salga aquí es por que queda por defecto. :warning:
+:warning: Lo que no salga aquí queda por defecto. 
 ------------
 
 
