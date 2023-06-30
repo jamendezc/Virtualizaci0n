@@ -7,45 +7,27 @@ Esto permitirá familiarizarnos con la implementación de WordPress en contenedo
 
 Servicios a utilizar:
 - Base de datos RDS
+- EC2
 - Amazon Elastic Container Registry (ECR)
 - Amazon Elastic Container Service (ECS)
 - Application Load Balancer
 
 ------------
 
+### *Base de datos RDS.*
+En esta parte se debe crear la base de datos que se utilizará para almacenar toda la información relacionada con el sitio web.
 
-###  *Creación de instancia EC2 en AWS.*
+Ir a RDS y configurar lo siguiente: 
+ 
+1. Método de creación estándar.
+2. Opciones de motor Aurora (MySQL Compatible)
+3. Plantillas de desarrollo y pruebas.
+4. Elegir un nomnbre para identificador del clúster de base de datos.
+5. Dejar por defecto el nombre de usuario maestro (admin).
+6. Elegir una contraseña para administrar credenciales maestras.
+7. Cluster storage configuration Aurora-Standard.
+8. Configuración de la instancia Clases con ráfagas (incluye clases t) y elegir tamaño small.
+7. Autenticación de bases de datos con contraseña.
+8. Crear base de datos.
 
-En esta parte se debe crear la instacia con AMI tipo Linux para poder conectarnos a la lína de comando mediante SSH en putty.
-
-------------
-
-
-### *Instalación de Docker y creación Dockerfile.*
-Una vez conectados en putty configurar los siguientes comandos en usuario root: 
-
-` yum update` #Actualizar paquetes.
-
-`yum -y install docker`  #Instalar Docker.
-
-` systemctl start docker`  #Iniciar Docker.
-
-`systemctl status docker`   #Estado de Docker.
-
-` mkdir _____ `    #Crear directorio.
-
-` cd ______ `      #Cambiar al directorio creado.
-
-` vim Dockerfile `    #Entrar al archivo Dockefile y pegar el codigo q ocuparás.
-
-` vim apache-config.conf `    #Entrar al archivo y pegar el codigo q ocuparás.
-
-` vim wp-settings.php `    #Entrar al archivo y pegar el codigo q ocuparás.
-
-` docker build -t _________ . `  #Creación de la imagen .
-
-` docker run -d -p 8080:80 ________ . `  #Lanzar la imagen .
-
-------------
-
-
+:exclamation: Lo que no salga aquí es por que queda por defecto.
