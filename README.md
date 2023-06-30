@@ -32,6 +32,7 @@ Ir a RDS y configurar lo siguiente:
 ------------
 
 ### :pushpin: *Instancia EC2 en AWS.*
+
 Se creará una instacia con AMI tipo Linux para poder conectarnos a la lína de comando mediante SSH en putty.
 ------------
 
