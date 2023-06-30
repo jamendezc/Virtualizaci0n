@@ -38,7 +38,7 @@ Se creará una instacia con AMI tipo Linux para poder conectarnos mediante SSH e
 ------------
 
 ### :pushpin: *Instalación de Docker y creación Dockerfile.*
-Una vez conectados en putty configurar los siguientes comandos en usuario root: 
+Una vez conectados en putty configurar los siguientes comandos en **usuario root.**
 
 ` yum update` #Actualizar paquetes.
 
