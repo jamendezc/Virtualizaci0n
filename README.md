@@ -6,11 +6,11 @@ El siguiente proyecto implica implementar una aplicación web utilizando contene
 Esto permitirá familiarizarnos con la implementación de WordPress en contenedores y practicar los conceptos fundamentales de Docker y GitHub en el proceso.
 
 Servicios a utilizar:
-- Base de datos RDS.
-- EC2.
-- Amazon Elastic Container Registry (ECR).
-- Amazon Elastic Container Service (ECS).
-- Application Load Balancer.
+- Base de datos RDS. :heavy_check_mark:
+- EC2.:heavy_check_mark:
+- Amazon Elastic Container Registry (ECR).:heavy_check_mark:
+- Amazon Elastic Container Service (ECS).:heavy_check_mark:
+- Application Load Balancer.:heavy_check_mark:
 ------------
 
 ### :pushpin: *Base de datos RDS.*
