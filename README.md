@@ -81,7 +81,7 @@ configurar los siguientes comandos en **usuario ec2-user en el directorio home.*
 
 `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"` #Descargar el archivo "awscliv2.zip" que contiene la herramienta AWS CLI.
 
-`unzip awscliv2.zip`  #Descomprimir el archivo y extraerá su contenido en el directorio actual.
+`unzip awscliv2.zip`  #Descomprimir el archivo y extraer su contenido al directorio actual.
 
 `sudo ./aws/install`   #Ejecutar el script de instalación de AWS CLI.
 
