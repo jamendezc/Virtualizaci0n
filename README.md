@@ -152,6 +152,7 @@ Primero crearemos una definición de tarea.
 5. Elegir rol de tarea y rol de ejecución de tareas"labrole".
 6. Elegir almacenamiento efímero de valor minímo 21gb.
 7. Presionar "siguiente" y luego, "crear".
+   
 :warning: Lo que no salga aquí queda por defecto. :warning:
 
 
