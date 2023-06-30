@@ -109,7 +109,20 @@ Apretar sobre el nombre del repositorio ya creado y buscar Ver comandos de enví
 
 Seguimos los pasos:
 
+1.  Recuperamos un token de autenticación y autentiquemos el Docker en el registro.
 
+`aws ecr get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin __________` #Aquí va la URI de tu repo.
+
+2. Este paso lo omitimos por que ya creamos y lanzamos la imágen.
+
+3. Etiquetamos la imagen para poder enviarla al repositorio.
+
+`docker tag ___________ 237931365941.dkr.ecr.us-east-1.amazonaws.com/wordpress:latest_` #Aquí va el nombre con el cual lanzaste tú imágen.
+
+4. Enviamos esta imágen al repositorio recién creado.
+`docker push 237931365941.dkr.ecr.us-east-1.amazonaws.com/wordpress:latest_`
+
+Cierras la ventana, recargas y ya debería aparecer tú imágen :sunglasses:. 
 
 
 
