@@ -95,7 +95,17 @@ configurar los siguientes comandos en **usuario ec2-user en el directorio home.*
 
 Aquí nos devolvemos a AWS y en el buscador ingresamos ECR lo que permitirá tener un repositorio privado para almacenar y administrar nuestra imágen de contenedor Docker brindándote mayor control y seguridad.
 
+Apretamos en crear y configurar lo siguiente:
 
+1. Configuración de visibilidad privado.
+2. Asignar un nombre del repositorio .
+3.Crear.
+
+Después de crear el repositorio en  ECR, debemos subir la imágen de contenedor al repositorio para que estén disponibles para su uso.
+
+Apretar sobre el nombre del repositorio ya creado y buscar Ver comandos de envío.
+
+Seguimos los pasos:
 
 
 
