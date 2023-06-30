@@ -155,5 +155,12 @@ Primero crearemos una definición de tarea.
    
 :warning: Lo que no salga aquí queda por defecto. :warning:
 
+Luego, nos vamos a crear un cluster.
+
+1.Crear cluster.
+2. Asignar un nombre para el cluster.
+3. presionar "crear".
+
+:warning: Lo que no salga aquí queda por defecto. :warning:
 
 
