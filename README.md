@@ -64,9 +64,19 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 
 ### :pushpin: *Instalación de base de datos.*
 
-` yum install mariadb105-server-utils.x86_64 ` #Instalar Mariadb .
+` yum install mariadb105-server-utils.x86_64 `  #Instalar Mariadb .
 
 ` mysql -h _________ -P 3306 -u admin -p`  #Conerctarse a la base de datos mediante punto de conexion instancia RDS.
+
+`show databases;` #Entrar a la base de datos.
+
+`create database ______` #Asiganar nombre a la base de datos.
+
+`grant all privileges on nombreebd.* to admin` #Asiganar permisos.
+
+`flush privileges;` #Confirmar cambios.
+
+------------
 
 ------------
 
