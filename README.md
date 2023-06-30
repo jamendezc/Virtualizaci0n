@@ -71,7 +71,7 @@ Una vez conectados en putty configurar los siguientes comandos en **usuario root
 
 `create database ______` #Asiganar nombre a la base de datos.
 
-`grant all privileges on nombreebd.* to admin` #Asiganar permisos.
+`grant all privileges on ______.* to admin` #Asiganar permisos en la base de datos recién creada.
 
 `flush privileges;` #Confirmar cambios.
 
