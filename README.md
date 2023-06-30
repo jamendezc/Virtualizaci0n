@@ -1,5 +1,5 @@
 ### Evaluación tecnológias de virtualización.
-##### By Javiera Méndez  :hibiscus:  
+##### By Javiera Méndez
 ![](https://www2.udsenterprise.com/media/filer_public_thumbnails/filer_public/ae/9c/ae9c8279-ef28-4eb0-a209-a1c6c10efd49/docker_with_aws_beta.jpg__800x600_q85_subsampling-2.jpg)
 
 El siguiente proyecto implica implementar una aplicación web utilizando contenedores y GitHub, con la opción de elegir WordPress como la aplicación web a desarrollar. 
@@ -11,10 +11,9 @@ Servicios a utilizar:
 - Amazon Elastic Container Registry (ECR)
 - Amazon Elastic Container Service (ECS)
 - Application Load Balancer
-
 ------------
 
-### :pushpin: *Base de datos RDS.*
+### *Base de datos RDS.*
 En esta parte se debe crear la base de datos que se utilizará para almacenar toda la información relacionada con el sitio web.
 
 Ir a RDS y configurar lo siguiente: 
@@ -29,19 +28,15 @@ Ir a RDS y configurar lo siguiente:
 8. Configuración de la instancia Clases con ráfagas (incluye clases t) y elegir tamaño small.
 7. Autenticación de bases de datos con contraseña.
 8. Crear base de datos.
-
-:warning: Lo que no salga aquí queda por defecto. 
+:warning: Lo que no salga aquí queda por defecto.
 ------------
 
-
-### :pushpin: *Instancia EC2 en AWS.*
+###  *Instancia EC2 en AWS.*
 
 Se creará una instacia con AMI tipo Linux para poder conectarnos a la lína de comando mediante SSH en putty.
-
 ------------
 
-
-### :pushpin: *Instalación de Docker y creación Dockerfile.*
+### *Instalación de Docker y creación Dockerfile.*
 Una vez conectados en putty configurar los siguientes comandos en usuario root: 
 
 ` yum update` #Actualizar paquetes.
@@ -65,4 +60,13 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 ` docker build -t _________ . `  #Creación de la imagen .
 
 ` docker run -d -p 8080:80 ________ . `  #Lanzar la imagen .
+------------
+
+
+
+
+
+
+
+
 
