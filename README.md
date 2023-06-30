@@ -122,7 +122,7 @@ Seguimos los pasos:
 
 `aws ecr get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin __________` 
 
-#Aquí va la URI de tu repo.
+#Aquí va la URI de tú repo.
 
 2. Este paso lo omitimos por que ya creamos y lanzamos la imágen.
 
