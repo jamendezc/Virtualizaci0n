@@ -1,5 +1,5 @@
 ### Evaluación tecnológias de virtualización.
-##### By Javiera Méndez
+##### By Javiera Méndez :hibiscus:
 ![](https://www2.udsenterprise.com/media/filer_public_thumbnails/filer_public/ae/9c/ae9c8279-ef28-4eb0-a209-a1c6c10efd49/docker_with_aws_beta.jpg__800x600_q85_subsampling-2.jpg)
 
 El siguiente proyecto implica implementar una aplicación web utilizando contenedores y GitHub, con la opción de elegir WordPress como la aplicación web a desarrollar. 
@@ -30,4 +30,4 @@ Ir a RDS y configurar lo siguiente:
 7. Autenticación de bases de datos con contraseña.
 8. Crear base de datos.
 
-:exclamation: Lo que no salga aquí es por que queda por defecto.
+:exclamation: Lo que no salga aquí es por que queda por defecto.:exclamation:
