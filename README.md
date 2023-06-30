@@ -143,5 +143,16 @@ Cierras la ventana, recargas y ya debería aparecer tú imágen :sunglasses:.
 
 Con este servicio proporcionaremos un lugar centralizado y seguro para almacenar nuestras imágenes de contenedor Docker, lo que permiirá compartir y distribuir fácilmente nuestras aplicaciones basadas en contenedores.
 
+Primero crearemos una definición de tarea.
+
+1. Nueva definición de tarea.
+2. Asignar nombre de familia de definición de tarea.
+3. Asignar nombre y colocamos la uri de la imagen que cargamos en el repositorio.
+4. Entorno de la aplicación Seleccionar AWS FARGATE.
+5. Elegir rol de tarea y rol de ejecución de tareas"labrole".
+6. Elegir almacenamiento efímero de valor minímo 21gb.
+7. Presionar "siguiente" y luego, "crear".
+:warning: Lo que no salga aquí queda por defecto. :warning:
+
 
 
