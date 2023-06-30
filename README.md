@@ -62,6 +62,9 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 
 ` docker run -d -p 8080:80 ________ . `  #Lanzar la imagen .
 
+### :pushpin: *Instalación de base de datos *
+
+
 ------------
 
 
