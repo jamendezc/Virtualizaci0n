@@ -5,9 +5,21 @@
 El siguiente proyecto implica implementar una aplicación web utilizando contenedores y GitHub, con la opción de elegir WordPress como la aplicación web a desarrollar. 
 Esto permitirá familiarizarnos con la implementación de WordPress en contenedores y practicar los conceptos fundamentales de Docker y GitHub en el proceso.
 
+Servicios a utilizar:
+- Base de datos RDS
+- Amazon Elastic Container Registry (ECR)
+- Amazon Elastic Container Service (ECS)
+- Application Load Balancer
+
+------------
+
+
 ###  *Creación de instancia EC2 en AWS.*
 
 En esta parte se debe crear la instacia con AMI tipo Linux para poder conectarnos a la lína de comando mediante SSH en putty.
+
+------------
+
 
 ### *Instalación de Docker y creación Dockerfile.*
 Una vez conectados en putty configurar los siguientes comandos en usuario root: 
@@ -30,7 +42,10 @@ Una vez conectados en putty configurar los siguientes comandos en usuario root:
 
 ` vim wp-settings.php `    #Entrar al archivo y pegar el codigo q ocuparás.
 
+` docker build -t _________ . `  #Creación de la imagen .
 
+` docker run -d -p 8080:80 ________ . `  #Lanzar la imagen .
 
+------------
 
 
