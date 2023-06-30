@@ -85,7 +85,7 @@ configurar los siguientes comandos en **usuario ec2-user en el directorio home.*
 
 `sudo ./aws/install`   #Ejecutar el script de instalación de AWS CLI.
 
-`vim ~/.aws/credentials` #Configurar accesos.
+`vim ~/.aws/credentials` #Entrar al archivo y pegar el AWS CLI que aparece en Lerner lab.
 
 ------------
 
