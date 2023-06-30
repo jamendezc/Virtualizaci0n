@@ -36,8 +36,6 @@ Ir a RDS y configurar lo siguiente:
 
 Se creará una instacia con AMI tipo Linux para poder conectarnos mediante SSH en putty.
 
-------------
-
 ### :pushpin: *Instalación de Docker y creación Dockerfile.*
 Una vez conectados en putty configurar los siguientes comandos en **usuario root.**
 
