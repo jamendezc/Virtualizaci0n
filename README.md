@@ -4,7 +4,6 @@
 ##### by Javiera Méndez :hibiscus:
 
 El siguiente proyecto implica implementar una aplicación web utilizando contenedores y GitHub, con la opción de elegir WordPress como la aplicación web a desarrollar. 
-Esto permitirá familiarizarnos con la implementación de WordPress en contenedores y practicar los conceptos fundamentales de Docker y GitHub en el proceso.
 
 Servicios a utilizar:
 - Base de datos RDS
@@ -188,6 +187,6 @@ Cuando el balanceador cargue cambiaremos el security group por el que la regla d
 
 Entramos por el DNS.
 
-[Links](http://mybalanceador-509003849.us-east-1.elb.amazonaws.com/)
+[DNS load balancer](http://mybalanceador-509003849.us-east-1.elb.amazonaws.com/)
 
 y esta listo!⭐⭐⭐⭐ 
