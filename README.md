@@ -182,3 +182,12 @@ Ingresamos al cluster creado y vamos hasta servicios para configurar lo siguient
 
 Cuando el balanceador cargue cambiaremos el security group por el que la regla de trafico HTTP.
 
+------------
+
+### :pushpin: *Comprobar funcionamiento de load balancer*
+
+Entramos por el DNS.
+
+[Links](http://mybalanceador-509003849.us-east-1.elb.amazonaws.com/)
+
+y esta listo!⭐⭐⭐⭐ 
