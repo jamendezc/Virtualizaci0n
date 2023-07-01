@@ -179,7 +179,7 @@ Ingresamos al cluster creado y vamos hasta servicios para configurar lo siguient
 11. Crear y asignar nombre en grupos de destinos.
 12. Crear servicio.
 
-Cuando el balanceador cargue cambiaremos el security group por el que la regla de trafico HTTP.
+Cuando el balanceador cargue cambiaremos el security group por el que tiene regla de trafico HTTP.
 
 ------------
 
