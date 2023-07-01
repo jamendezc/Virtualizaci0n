@@ -165,3 +165,20 @@ Luego, nos vamos a crear un cluster.
 
 Por último, crearemos el servicio.
 
+Ingresamos al cluster creado y vamos hasta servicios para configurar lo siguiente.
+
+1. Elegir estrategia de proveedor de capacidad.
+2. Configuración de implementación Servicio.
+3. En Familia elegir nuestra tarea y la version.
+4. Asignar un nombre para el servicio.
+5. En tareas deseadas elegir 1.
+6. Elegir tus Grupos de seguridad  #Aquí va el de la base de datos, el de la instancia y de la instacia de la base de datos.
+7. Seleccionar "Balanceador de carga de aplicaciones".
+8. Crear un nuevo balanceador de carga.
+9. Nombre del balanceador de carga
+10. Elegir Puerto 80 http
+11. Crear y asignar nombre en grupos de destinos.
+12. Crear servicio.
+
+Cuando el balanceador cargue cambiaremos el security group por el que la regla de trafico HTTP.
+
