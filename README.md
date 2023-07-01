@@ -189,4 +189,4 @@ Entramos por el DNS.
 
 [DNS load balancer](http://mybalanceador-509003849.us-east-1.elb.amazonaws.com/)
 
-y esta listo!⭐⭐⭐⭐ 
+y ya está listo!
